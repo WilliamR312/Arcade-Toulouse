@@ -5,7 +5,7 @@ Liste et description des fichiers:
 ## API
 
 * **api.h** : API, en C, qui relie les *libs* et le *core*. Elle contient 3 fonctions, ces dernières devant être *définies dans chacunes des libs* et *appelées par le core* :
-    * **void \*library_get_type()** : renvoie les métadatas de la lib.
+    * **void \*library_get_data()** : renvoie les métadatas de la lib.
     * **void \*library_create()** : renvoie la lib au core.
     * **void library_delete(void \*library)** : supprime la lib.
 
